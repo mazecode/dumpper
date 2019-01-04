@@ -6,7 +6,7 @@
 		"dd", "Dump", "Die"
 	],
     "license": "MIT",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "authors": [
         {
             "name": "mazecode",
@@ -31,5 +31,8 @@
     "require": {
         "php": ">=5.3.0",
         "symfony/var-dumper": "^4.2"
+    },
+    "scripts": {
+        "start": "php -S localhost:8889"
     }
 }
