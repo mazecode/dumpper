@@ -1,6 +1,10 @@
 {
     "name": "mazecode/dumpper",
     "type": "library",
+    "description": "Dump and die",
+    "keywords": [
+		"dd", "Dump", "Die"
+	],
     "license": "MIT",
     "version": "1.0.0",
     "authors": [
@@ -9,6 +13,10 @@
             "email": "diego.feliud@gmail.com"
         }
     ],
+    "repositories": [{
+		"type": "github",
+		"url": "https://github.com/mazecode/dumpper.git"
+	}],
     "autoload": {
         "files": [
             "src/Dumpper/Helper.php"
