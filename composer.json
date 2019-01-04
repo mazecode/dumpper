@@ -1,0 +1,27 @@
+{
+    "name": "mazecode/dumpper",
+    "type": "library",
+    "license": "MIT",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "mazecode",
+            "email": "diego.feliud@gmail.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "src/Dumpper/Helper.php"
+        ],
+        "psr-4": {
+            "Dumpper\\": "src/Dumpper"
+        }
+    },
+    "provide": {
+        "psr/log-implementation": "1.0.0"
+    },
+    "require": {
+        "php": ">=5.3.0",
+        "symfony/var-dumper": "^4.2"
+    }
+}
